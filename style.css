@@ -1,0 +1,27 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container {
+    max-width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.btn {
+    padding: 1.5rem 3.5rem;
+    border-radius: 10px;
+    border: none;
+    background-color: rgb(77, 140, 160);
+    color: white;
+    font-size: 2rem;
+    font-weight: bold;
+}
+.btn:hover {
+    background-color: rgb(136, 186, 202);
+}
+.btn:active {
+    background-color:rgb(77, 140, 160) ;
+}
